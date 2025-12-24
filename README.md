@@ -85,25 +85,3 @@ Web_API/
 3. See country details with flag
 4. Check currency exchange rates
 5. Browse related news articles
-
-## License
-
-ISC
-```
-
----
-
-## ✅ Всё! Это все 8 файлов для вашего GitHub репозитория
-
-**Структура папок на GitHub:**
-```
-Web_API/
-├── .gitignore
-├── .env.example
-├── package.json
-├── server.js
-├── README.md
-└── public/
-    ├── index.html
-    ├── style.css
-    └── script.js
