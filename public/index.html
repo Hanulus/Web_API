@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random User Explorer</h1>
+        <button id="getUserBtn">Get Random User</button>
+        
+        <div id="loading" class="loading hidden">Loading...</div>
+        
+        <div id="content" class="hidden">
+            <!-- User Info -->
+            <div class="section user-section">
+                <h2>User Information</h2>
+                <div class="user-card">
+                    <img id="userPhoto" src="" alt="User photo">
+                    <div class="user-details">
+                        <p><strong>Name:</strong> <span id="userName"></span></p>
+                        <p><strong>Gender:</strong> <span id="userGender"></span></p>
+                        <p><strong>Age:</strong> <span id="userAge"></span></p>
+                        <p><strong>Date of Birth:</strong> <span id="userDob"></span></p>
+                        <p><strong>Location:</strong> <span id="userLocation"></span></p>
+                        <p><strong>Address:</strong> <span id="userAddress"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Country Info -->
+            <div class="section country-section">
+                <h2>Country Information</h2>
+                <div class="country-card">
+                    <img id="countryFlag" src="" alt="Country flag">
+                    <div class="country-details">
+                        <p><strong>Country:</strong> <span id="countryName"></span></p>
+                        <p><strong>Capital:</strong> <span id="countryCapital"></span></p>
+                        <p><strong>Languages:</strong> <span id="countryLanguages"></span></p>
+                        <p><strong>Currency:</strong> <span id="countryCurrency"></span></p>
+                    </div>
+                </div>
+                
+                <!-- Exchange Rates -->
+                <div class="exchange-rates">
+                    <h3>Exchange Rates</h3>
+                    <p id="exchangeUSD"></p>
+                    <p id="exchangeKZT"></p>
+                </div>
+            </div>
+
+            <!-- News -->
+            <div class="section news-section">
+                <h2>Latest News</h2>
+                <div id="newsContainer" class="news-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
